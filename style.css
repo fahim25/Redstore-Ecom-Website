@@ -1,0 +1,50 @@
+/*
+===================================
+|   |   Generic Css
+===================================
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+p{
+    color: #000;
+}
+/*
+===================================
+|   |   Nav
+===================================
+*/
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav>ul{
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav>ul>li{
+    display: inline-block;
+    margin-right: 20px;
+}
